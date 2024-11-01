@@ -1,0 +1,48 @@
+
+  
+.box {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Space between the image and text */
+    padding: 20px; /* Adjust as needed */
+  }
+  
+  .mainimg{
+    width: 400px;
+    height: 400px;
+    /*padding-top: 25px;*/
+    border-radius: 30%;
+    padding-left: 35px;
+    
+  }
+  
+  
+  .loc {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center; /* Align the location icon and text */
+    margin-bottom: 10px; /* Space between location section and title */
+  }
+  
+  .location {
+    margin-left: 2px; /* Space between icon and text */
+    font-size: 1.9rem;
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: column; /* Stack title and date vertically */
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-right: 70px;
+  }
+  
+  .date {
+    margin-top: 10px; /* Space between the title and date */
+  }
+  

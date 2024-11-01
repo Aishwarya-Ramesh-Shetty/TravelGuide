@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+
+
+
+
+*{
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.img-logo{
+  height: 100px;
+  width: 100px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heading{
+  padding-top: 60px;
+  padding-left: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav{
+  height: 150px;
+  box-shadow: 0px 2.98px 7.45px black;
+  background-color: #2a9d8f; /*#2a9d8f*/
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/****************************************************************************************************/
+
+
+body{
+  background-color: white;
+}
+.main{
+  font-size: 2rem;
+  font-family: "Rajdhani", sans-serif;
+  padding-left: 180px;
+  padding-top: 40px;
+  
+  /*background-color: #ef233c;*/
+}
+
+/****************************************************************************************************/
+
+.head1{
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-bottom: 60px;
+  font-size: 1.9rem;
+}
+
+/****************************************************************************************************/
+.box{
+  height: 500px;
+  width: 1500px;
+  box-shadow: 0px 2.98px 7.45px rgba(0,0,0,0.1);
+  display: flex;
+  align-items:center;
+  
+}
+
+.loc{
+  height: 35px;
+  width: 35px;
+  padding-bottom: 300px;
+  padding-left: 20px
+}
+
+.mainimg{
+  width: 400px;
+  height: 400px;
+  /*padding-top: 25px;*/
+  border-radius: 30%;
+  padding-left: 35px;
+  
+}
+
+.location{
+  
+  font-size: 1.9rem;
+  padding-left: 30px;
+  padding-bottom: 300px;
+  
+}
+
+.content{
+  /*display: ruby-text;*/
+  padding-left: 40px;
+  
+}
+
+.title{
+  /*display: ruby-text;*/
+  position: relative;
+  font-size: 2.6rem;
+  font-weight: 700;
+  padding-bottom: 170px;
+  font-family: "Barlow", sans-serif;
+  
+}
+
+.date{
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+  position: absolute;
+  padding-left: 500px;
+  font-weight: 600;
+  font-family: "Barlow", sans-serif;
+}
+
+.description{
+  position: absolute;
+  padding-left: 500px;
+  padding-top: 110px;
+  font-size: 1.3rem;
+}
+
+
+/****************************************************************************************************/
+
+
+.footer{
+  font-size: 1.5rem;
+  padding-top: 60px;
+  padding-left: 590px;
 }
